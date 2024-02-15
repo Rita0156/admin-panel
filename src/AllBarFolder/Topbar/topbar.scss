@@ -1,0 +1,40 @@
+.topbar {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    border: 2px solid gray;
+    padding: 7px;
+    .input-container {
+       
+        width: 20%;
+        input{
+            display: block;
+            width: 100%;
+            border: none;
+            font-size: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .otherTopbar{
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        right: 0;
+        .top-icons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .shadow{
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+            padding: 10px;
+           }
+    }
+   
+
+}
